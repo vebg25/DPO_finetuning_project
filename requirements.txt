@@ -1,0 +1,7 @@
+transformers
+datasets
+peft
+trl
+bitsandbytes
+wandb
+python-dotenv
