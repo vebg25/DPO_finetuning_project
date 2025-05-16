@@ -12,7 +12,7 @@
 | 🧩 Modular Codebase       | Clean, scalable, and reusable module structure             |
 | ✅ Fully Offline Friendly  | Runs on any local machine — **no Kaggle dependency**       |
 
-
+### Project Structure
 ```bash
 dpo_training_project/
 ├── config/                # Auth and model configuration
@@ -25,16 +25,22 @@ dpo_training_project/
 └── README.md              # You're here
 
 ```
-
+### Clone this repository
 ```bash
 git clone https://github.com/vebg25/DPO_finetuning_project.git
 ```
+### Install the requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
 
-
+### Put your credentials
 ```ini
 WANDB_API_KEY=your_wandb_api_key
 HF_TOKEN=your_huggingface_token
+```
+
+### Run the main app
+```python
+pyhton main.py
 ```
