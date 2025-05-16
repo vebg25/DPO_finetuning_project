@@ -28,3 +28,16 @@ dpo_training_project/
 └── README.md              # You're here
 
 ```
+
+```bash
+git clone https://github.com/vebg25/DPO_finetuning_project.git
+```
+```bash
+pip install -r requirements.txt
+```
+
+
+```ini
+WANDB_API_KEY=your_wandb_api_key
+HF_TOKEN=your_huggingface_token
+```
