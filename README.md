@@ -15,3 +15,16 @@
 ### 🧩 Environment-variable-based configuration
 
 ### ✅ Designed to run on any machine (Kaggle-independent)
+
+```bash
+dpo_training_project/
+├── config/                # Auth and model configuration
+├── data/                  # Dataset loading and preprocessing
+├── training/              # Trainer setup
+├── utils/                 # Formatting logic (ChatML)
+├── main.py                # Main training & merge script
+├── .env                   # Your API keys (not committed)
+├── requirements.txt       # Dependencies
+└── README.md              # You're here
+
+```
