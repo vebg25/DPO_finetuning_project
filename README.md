@@ -2,19 +2,16 @@
 ### Fine-tune the powerful Qwen2.5-7B-Instruct model using Direct Preference Optimization (DPO) on the Intel/orca_dpo_pairs dataset — with support for LoRA, 4-bit quantization, and W&B logging.
 
 ### 🧠 Overview
-### This project modularizes the full DPO training pipeline using:
+| Feature                   | Description                                                |
+| ------------------------- | ---------------------------------------------------------- |
+| 🤗 Hugging Face Ecosystem | Uses Transformers, TRL, and PEFT for modern LLM finetuning |
+| 📦 Quantization           | Optimized with 4-bit `bitsandbytes` inference and training |
+| 🔧 Efficient Training     | Lightweight LoRA adaptation for cost-effective finetuning  |
+| 📊 Experiment Tracking    | Integrated W\&B logging for robust model analysis          |
+| 🔐 Secure Configuration   | `.env` based secret management for API tokens              |
+| 🧩 Modular Codebase       | Clean, scalable, and reusable module structure             |
+| ✅ Fully Offline Friendly  | Runs on any local machine — **no Kaggle dependency**       |
 
-### 🤗 Hugging Face Transformers, PEFT, and TRL
-
-### 📦 4-bit quantization using bitsandbytes
-
-### 🔧 LoRA for efficient parameter tuning
-
-### 📊 W&B for experiment tracking
-
-### 🧩 Environment-variable-based configuration
-
-### ✅ Designed to run on any machine (Kaggle-independent)
 
 ```bash
 dpo_training_project/
